@@ -394,7 +394,7 @@ Cognitiv integrates six established frameworks from cognitive science:
 | **Complementary Learning Systems** (McClelland et al., 1995) | Episodic → semantic consolidation via LLM |
 | **Affect Infusion Model** (Forgas, 1995) | Mood-based appraisal bias |
 
-See the [white paper](docs/cognitiv_whitepaper.pdf) for full theoretical discussion and references.
+See the [white paper](cognitiv_whitepaper.pdf) for full theoretical discussion and references.
 
 ---
 
