@@ -2,13 +2,14 @@
 
 **A cognitive architecture for emotionally reactive agents.**
 
-Cognitiv gives artificial agents human-like mental processes: emotional appraisal, associative memory, mood dynamics, and imperfect recall. It's built for LLM-driven game NPCs, behavioral research, and interactive simulations — anywhere you need agents that don't just respond but *remember, feel, and change*.
+Cognitiv gives artificial agents human-like mental processes: emotional appraisal, associative memory, mood dynamics, and imperfect recall. It's built for LLM-driven game NPCs, behavioral research, and interactive simulations — anywhere you need agents that go beyond purely responding but *remembering, feeling, and changing*.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg)](#)
 [![Status: Alpha](https://img.shields.io/badge/status-alpha-orange.svg)](#)
 
+*Note: References to "feeling, remembering, thinking," etc. are used here in the common LLM-related meanings and do not evoke any actual sentience or self-awareness.*
 ---
 
 ## Why Cognitiv?
@@ -175,7 +176,7 @@ Cognitiv uses a 12-emotion reduced OCC taxonomy:
 | **Standard-based** (actions) | pride, admiration | shame, reproach |
 | **Attitude-based** (entities) | liking | disliking |
 
-Compound emotions emerge naturally from co-occurring impulses — anger is reproach + distress, gratitude is admiration + joy.
+Compound emotions emerge naturally from co-occurring impulses. For example, anger is reproach + distress, gratitude is admiration + joy.
 
 ### Memory Retrieval
 
@@ -262,7 +263,7 @@ Start a llama.cpp server first:
 llama-server -m /path/to/model.gguf --port 8080 --ctx-size 2048 --n-gpu-layers 99
 ```
 
-**Model recommendation:** Gemma 3 4B IT works well for appraisal — it reliably returns bare numeric responses. Reasoning models (like Gemma 4 E2B) tend to wrap numbers in explanatory text and degrade performance.
+**Model recommendation:** Gemma 3 4B IT works well for appraisal — it reliably returns bare numeric responses. Reasoning models may wrap numbers in explanatory text and degrade performance.
 
 ---
 
@@ -368,7 +369,7 @@ cognitiv/
 
 ## Use Cases
 
-**Game NPCs.** Cognitiv was designed alongside [Personica AI](https://fab.com), a commercial UE5 plugin for LLM-driven NPCs. The architecture gives game characters persistent emotional states, associative memory, and naturally imperfect recall — turning static dialogue trees into agents that change based on what they've experienced.
+**Game NPCs.** Cognitiv was designed alongside [Personica AI](https://swamprabbitlabs.com/personica/), a commercial UE5 plugin for LLM-driven NPCs. The architecture gives game characters persistent emotional states, associative memory, and naturally imperfect recall — turning static dialogue trees into agents that change based on what they've experienced.
 
 **Behavioral research.** The pure-Python implementation with zero dependencies makes Cognitiv easy to integrate into research pipelines. Run thousands of simulated agents, sweep appraisal parameters systematically, or use it as a baseline for comparing cognitive architectures.
 
@@ -445,4 +446,4 @@ MIT. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-Cognitiv builds on decades of cognitive science research. Particular thanks to the lineage of cognitive architectures — ACT-R, Soar, ALMA, EMA — whose formal approaches to modeling mind made this possible. And to the authors of *Generative Agents* (Park et al., 2023) for demonstrating that LLM-driven agents with persistent mental state are a tractable research direction.
+Cognitiv builds on decades of cognitive science research. Particular thanks to the lineage of cognitive architectures (ACT-R, Soar, ALMA, EMA) whose formal approaches to modeling mind made this possible. And to the authors of *Generative Agents* (Park et al., 2023) for demonstrating that LLM-driven agents with persistent mental state are a tractable research direction.
