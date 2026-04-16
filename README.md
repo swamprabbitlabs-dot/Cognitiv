@@ -2,19 +2,21 @@
 
 **A cognitive architecture for emotionally reactive agents.**
 
-Cognitiv gives artificial agents human-like mental processes: emotional appraisal, associative memory, mood dynamics, and imperfect recall. It's built for LLM-driven game NPCs, behavioral research, and interactive simulations — anywhere you need agents that go beyond purely responding but *remembering, feeling, and changing*.
+Cognitiv gives artificial agents human-like mental processes: emotional appraisal, associative memory, mood dynamics, and imperfect recall. It's built for LLM-driven game NPCs, behavioral research, and interactive simulations; anywhere you need agents that go beyond purely responding but *remembering, feeling, and changing*.
+
+*Note: References to "feeling, remembering, thinking," etc. are used here in the common LLM-related meanings and do not evoke any actual sentience or self-awareness.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg)](#)
 [![Status: Alpha](https://img.shields.io/badge/status-alpha-orange.svg)](#)
 
-*Note: References to "feeling, remembering, thinking," etc. are used here in the common LLM-related meanings and do not evoke any actual sentience or self-awareness.*
+
 ---
 
 ## Why Cognitiv?
 
-Most LLM agents treat memory as a database lookup: score entries by relevance, return the top matches. But human memory isn't a search index — it's associative, emotional, context-dependent, and reconstructive. A person in a marketplace already has trade memories partially activated. Their anxiety makes anxious memories more accessible. They confuse similar events. They form beliefs from patterns over time.
+Most LLM agents treat memory as a database lookup: score entries by relevance, return the top matches. But human memory differs from a search index or filing cabinet. Instead, it's associative, emotional, context-dependent, and reconstructive. A person in a marketplace already has trade memories partially activated. Their anxiety makes anxious memories more accessible. They confuse similar events. They form beliefs from patterns over time.
 
 Cognitiv models these properties directly:
 
